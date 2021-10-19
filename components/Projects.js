@@ -15,7 +15,7 @@ const Projects = () => {
           return (
             <div
               key={data.id}
-              className="grid  grid-cols-1 place-content-center space-x-40  place-items-center justify-center items-center md:grid-cols-2"
+              className="grid  grid-cols-1 place-content-center space-x-0 md:space-x-40  place-items-center justify-center items-center md:grid-cols-2"
             >
               <div className="max-w-lg mb-10">
                 <h1
