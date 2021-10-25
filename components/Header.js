@@ -2,7 +2,7 @@
 import Link from 'next/link'
 const Header = () => {
   return (
-    <div className="border-b border-gray-400 flex justify-between w-full">
+    <div className="border-b border-gray-400 flex justify-between w-full shadow-lg">
       <div className="m-5 ">
         <Link href="/">
           <h1 className="font-bold cursor-pointer hidden md:inline-grid">
@@ -14,7 +14,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="m-5 cursor-pointer font-semibold">
-        <Link href="/">
+        <Link href="/about">
           <span className="linkSpan">About</span>
         </Link>
         <Link href="/project">
